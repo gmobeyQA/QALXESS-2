@@ -1,0 +1,36 @@
+i. A word on eight digit number without an 8 
+A number comprising eight consecutive integers without an * is, obviously
+12345679.
+This number is special, as when multiplied by multiples of 9, that is by:
+9, 18, 27, 36, 45, 54, 63, 72, 81
+will evaluate to a number of nine identical digits:
+	 9*12345679=111111111
+	18*12345679=222222222
+	27*12345679=333333333
+	36*12345679=444444444
+	45*12345679=555555555
+	54*12345679=666666666
+	63*12345679=777777777
+	72*12345679=888888888
+	81*12345679=999999999
+
+ii. Magic number 37
+Let's consider a sequence of numbers which are multiples of three:
+3, 6, 9, 12, 15, 18, 21, 24, 27
+Multiply each element of the above list by 37 - and we will obtain:
+111, 222, 333, 444, 555, 666, 777, 888, 999
+Two things to notice: one obvious one, ie: each result consists of three 
+identical digits, but also, if you add digits in each result, the sum 
+will be the original number we started of with: 
+1+1+1=3, 2+2+2=6, 3+3+3=9 ... 9+9+9=27
+
+iii. Magic number 1089
+Take any three digit number where hundreds digit is higher that 
+the units digit. Subtruct from it a mirror image of this number, say
+	 752 - 257 = 495
+Add to this result its mirror image and you will obtain 1089, always!
+	495 + 594 = 1089
+Pad out the result of the subtruction with leading zeroes, if necessary, ie:
+	726 - 627 = 099 + 990 = 1089
+
+iv. 
